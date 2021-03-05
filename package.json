@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-manifest-asset-prefix",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Chris Santamaria <chris@santamaria.me>",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.0.2",
+    "gatsby-plugin-manifest": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
